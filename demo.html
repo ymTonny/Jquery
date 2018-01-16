@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    123
+</div>
+<div>
+    abc
+</div>
+<script src="jq.js"></script>
+<script>
+    $("div").html("123");
+    console.log($("div").html())
+    $("div").css({"background":"yellow"}).css("color","blue")
+</script>
+</body>
+</html>
